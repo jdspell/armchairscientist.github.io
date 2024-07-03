@@ -103,13 +103,13 @@ The TLDR steps are simple. Calculate distances, sort based on the distances, kee
 # Program Output for 32sqft Home
 
 `
-Home 0: (Sqft: 35, Price: 30000) -> Distance: 3  
-Home 1: (Sqft: 45, Price: 45000) -> Distance: 13  
-Home 2: (Sqft: 40, Price: 50000) -> Distance: 8  
-Home 3: (Sqft: 35, Price: 35000) -> Distance: 3  
-Home 4: (Sqft: 25, Price: 32500) -> Distance: 7  
-Home 5: (Sqft: 40, Price: 40000) -> Distance: 8  
-Homes sorted by distance: [1, 4, 5, 3, 6, 2]  
+Home 0: (Sqft: 35, Price: 30000) -> Distance: 3 <br>
+Home 1: (Sqft: 45, Price: 45000) -> Distance: 13 <br>
+Home 2: (Sqft: 40, Price: 50000) -> Distance: 8 <br>
+Home 3: (Sqft: 35, Price: 35000) -> Distance: 3 <br>
+Home 4: (Sqft: 25, Price: 32500) -> Distance: 7 <br>
+Home 5: (Sqft: 40, Price: 40000) -> Distance: 8 <br>
+Homes sorted by distance: [1, 4, 5, 3, 6, 2] <br>
 For a home that is 32sqft the predicted price according to our dataset is 32500.
 `
 
