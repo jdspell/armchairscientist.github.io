@@ -16,6 +16,7 @@ struct Home {
 
 const int kNumberOfHomes = 6;
 // Define the homes where square footage (feature) is used to predict price (label)
+{% raw %}
 std::array<Home, kNumberOfHomes> homes = {{
     {1, 35, 30000},
     {2, 45, 45000},
@@ -24,6 +25,7 @@ std::array<Home, kNumberOfHomes> homes = {{
     {5, 25, 32500},
     {6, 40, 40000}
 }};
+{% endraw %}
 ```
 
 We would like to be able to predict a home's price given the sqft of that home.
